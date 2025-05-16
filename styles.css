@@ -1,0 +1,95 @@
+/* Global Styles */
+:root {
+  --primary: #0A2463;
+  --primary-light: #12348c;
+  --secondary: #E6C229;
+  --accent: #851E3E;
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--gray-800);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #212529;
+}
+
+p{
+  color: #12348c;
+}
+
+.navbar-brand .logo-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.top-bar {
+  background-color: var(--primary);
+  color: white;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.page-header {
+  background-color: var(--primary);
+  color: white;
+}
+
+.breadcrumb-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.program-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.program-card .card-header {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+}
+
+.campus-life-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.contact-info i {
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: var(--gray-900);
+}
+
+footer a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--secondary) !important;
+}
